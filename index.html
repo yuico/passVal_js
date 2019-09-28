@@ -1,0 +1,59 @@
+<!-- Kyounghee Kim, 991494939 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="..css/kim.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/kim.js"></script>
+    <title>Kyounghee kim</title>
+</head>
+
+<body>
+    <header>
+        <h3>Assignment #1 / Kyounghee Kim / 991494939</h3>
+    </header>
+    <form id="contents" action="pages/defpage.html">
+        <label for="windowType">Select Styles:</label>
+        <select name="windowType" id="windowType">
+            <option value="Single" checked>Single</option>
+            <option value="Twin">Twin</option>
+            <option value="Triple">Triple</option>
+        </select><br>
+        <label for="material">Frame of Material:</label><br>
+        <input class="material" type="radio" name="material" value="Vinyl" checked>Vinyl<br>
+        <input class="material" type="radio" name="material" value="Aluminum">Aluminum<br>
+        <input class="material" type="radio" name="material" value="Fiberglass">Fiberglass<br>
+        <input class="material" type="radio" name="material" value="Fibrex">Fibrex<br>
+        <label for="roomType">Room Type:</label>
+        <select name="roomType" id="roomType">
+            <option class="roomType" value="Living room" checked>Living room</option>
+            <option class="roomType" value="Bed room">Bed room</option>
+            <option class="roomType" value="Bath room">Bath room</option>
+            <option class="roomType" value="Sun roof">Sun roof</option>
+        </select><br>
+        <label for="widOfWindow">Width of window:</label>
+        <input type="text" id="widOfWindow" class="widOfWindow" value="200"><br>
+        <label for="lengthOfWindow">length of window:</label>
+        <input type="text" id="lengthOfWindow" class="lengthOfWindow" value="200"><br>
+        <label for="name">Customer's name:</label>
+        <input type="text" id="name" class="name" value="name"><br>
+        <label for="emailAdr">Customer's email:</label>
+        <input type="email" id="emailAdr" class="emailAdr" value="email@email.com"><br>
+
+        <input id="submit" type="submit" value="submit" onclick="passVal()"><br>
+
+        <!-- <a href="pages/defpage.html" id="saveData">go to order</a> -->
+    </form>
+
+    <img src="imgs/kim.jpg" alt="kim">
+    <footer>kimkyo / Trafalgar campus</footer>
+
+
+
+</body>
+
+</html>
